@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: lightgray;
+  background:  black;
   scroll-behavior: smooth;
 }
 
@@ -51,7 +51,7 @@ header {
 
 /* CARD (used by sections) */
 .card {
-  background: lightgray;
+  background: brown;
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
@@ -89,13 +89,15 @@ header {
 }
 
 .skills li:hover {
-  background: blue;
+  background: red;
 }
 
 /* FOOTER */
-footer {
+#footer {
   text-align: center;
   padding: 15px;
+  background: lightblue;
+  
 }
 
 /* MOBILE */
