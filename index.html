@@ -4,63 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
-       <!--Css-->
-  <link rel="stylesheet" href="css/style.css">
+
+  
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <div class="navbar" id="myNavbar">
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#home">Home</a>
+  <!-- HEADER + NAV -->
+  <header>
+    <nav class="navbar" id="myNavbar">
 
-    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">☰</a>
-  </div>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#home">Home</a>
 
-  <div class="container" id="home">
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">☰</a>
+
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
 
     <h1 class="title">My Personal Portfolio</h1>
 
-    <!-- Profile -->
-    <div class="card profile">
-      <img src="assets/picture/myphoto.jpg" alt="Profile Picture" class="profile-img">
+    <!-- HOME / PROFILE -->
+    <section id="home" class="card profile">
+      <img src="assets/images/myphoto.jpg" alt="Profile Picture" class="profile-pic">
       <h2>Cherwin</h2>
-      <p><b>Address:</b> Katipunan Z.N, Philippines</p>
-    </div>
+      <p><b>Address:</b> Daanglungsod, Katipunan Z.N</p>
+    </section>
 
-    <!-- About -->
-    <div class="card" id="about">
-      <h2>About Me</h2>
+    <!-- ABOUT -->
+    <section id="about" class="card">
+      <h2>About</h2>
       <p>
         Hello! I am a web developer who enjoys creating modern websites using HTML, CSS, and JavaScript.
       </p>
-    </div>
+    </section>
 
-    <!-- Skills -->
-    <div class="card" id="skills">
+    <!-- SKILLS -->
+    <section id="skills" class="card">
       <h2>Skills</h2>
       <ul class="skills">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
       </ul>
-    </div>
+    </section>
 
-       <!-- Contact -->
-    <div class="card" id="contact">
+    <!-- CONTACT -->
+    <section id="contact" class="card">
       <h2>Contact</h2>
-  <p>Email: Cherwindaan@gmail.com</p>
-  <p>Phone: 09050711420</p>
-  <p>Facebook: facebook.com/Cherwindaan</p>
-  <p>Location: Daanglungsod,Katipunan Z.N</p>
-    </div>
+      <p>Email: Cherwindaan@gmail.com</p>
+      <p>Phone: 09050711420</p>
+      <p>Facebook: facebook.com/Cherwindaan</p>
+      <p>Location: Daanglungsod, Katipunan Z.N</p>
+    </section>
 
-  </div>
+  </main>
 
-  <!--JS-->
+  <!-- FOOTER -->
+  <footer class="card">
+    <p>© 2026 Cherwin Portfolio</p>
+  </footer>
+
   <script src="js/script.js"></script>
 
 </body>
